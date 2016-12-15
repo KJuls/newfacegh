@@ -1,0 +1,209 @@
+
+body{
+	 font-family: "poppins";
+	 font-size:14px;
+}
+
+.appHeader{
+	background-color:#03a4fe;
+}
+
+.container{
+	max-width:1240px;
+	padding-left:2%;
+	padding-right:2%;
+	margin: 0 auto;
+}
+
+.last-child{
+	border-left:1px solid #BBB;
+	padding-left:65px;
+}
+
+/*fieldset{
+	padding:7px 5px 7px 5px;
+	border:1px solid #BBB;
+}
+
+input, select, textarea{
+	border:none !important;
+}
+
+form{
+	padding-top:5%;
+}
+
+legend{
+	font-size:12px;
+	font-family:"poppins";
+	font-weight:400;
+}
+
+.event-color{
+	display:inline-block;
+}
+
+.box{
+	width:20px;
+	height:20px;
+	margin-top:10px;
+}
+
+.red{
+	background-color:#D00;
+}*/
+
+
+
+@charset "UTF-8";
+/* 
+CSS Document : form
+What
+why
+how to use
+
+notes
+
+
+
+*/
+
+
+.loopui-form {
+	
+	}
+
+
+
+.stacked select{
+	width:50% !important;
+	padding:0;
+}
+
+.loopui-form fieldset {
+	padding:0;
+	border:none;
+}
+
+a{
+	text-decoration:none;
+	color:#00a7ff;
+}
+
+.guest-section{
+	padding-top:40px;
+}
+
+.loopui-form loopui-calender{
+	width:20% !important;
+}
+
+.loopui-form legend {
+	padding:0;
+	margin:0;
+	padding:16px 0;
+	font-size:20px;
+	color:#636382;
+	text-transform:none;
+	font-weight:normal;
+	}	
+	
+.loopui-form .form-item {
+	display:flex;
+	flex-wrap:wrap;
+	margin-bottom:18px;
+	}
+	
+.loopui-form .form-item:last-child {
+	margin-bottom:0;
+	}
+
+
+.loopui-form .form-item div {
+	/*flex-basis: 0;*/
+    flex-grow: 1;
+    max-width: 100%;
+    padding-right: 77px;
+	margin-top:10px
+	}	
+	
+@media (max-width: 1000px) {
+	.loopui-form .form-item div {
+		padding-right: 40px;
+		width:100%;
+		margin-bottom:18px;
+		}
+	
+	.loopui-form .form-item div:last-child {
+		margin:0;
+		}	
+	
+}	
+
+@media (max-width: 999px) {
+	.loopui-form .form-item div {
+		padding-right: 0;
+		flex-basis:auto
+		}
+}
+
+/*.loopui-form div:last-child{
+	padding-right:0;
+	}	*/	
+	
+.loopui-form label {
+	width:29%;
+	padding:0;
+	display:inline-block
+	}
+
+textarea{
+	height:100px !important;
+	padding-top:10px !important;
+}	
+	
+.loopui-form input[type="email"], .loopui-form input[type="number"], .loopui-form input[type="search"], .loopui-form input[type="text"], .loopui-form input[type="date"], .loopui-form input[type="tel"], .loopui-form input[type="url"], .loopui-form input[type="password"], .loopui-form select, .loopui-form textarea {
+    width: 67% !important;
+	display:inline-block;
+	}	
+	
+@media (max-width: 728px) {
+	.loopui-form label {
+		width:100%;
+		}
+		
+	.loopui-form input[type="email"], .loopui-form input[type="number"], .loopui-form input[type="search"], .loopui-form input[type="text"], .loopui-form input[type="date"], .loopui-form input[type="tel"], .loopui-form input[type="url"], .loopui-form input[type="password"], .loopui-form select, .loopui-form textarea {
+		width: 100% !important;
+		}
+}
+	
+	
+	
+.loopui-form span[title] {
+	cursor:help
+	}
+
+
+	
+.loopui-form .stacked label {
+	width:100%;
+	padding:0px 10px 0px 10px;
+	background:#fff none repeat scroll 0 0;
+	position:relative;
+	top: 14px;
+	width:auto;
+	left:13px;
+	text-transform:uppercase;
+	}
+	
+.loopui-form .stacked input[type="email"], .loopui-form .stacked input[type="number"], .loopui-form .stacked input[type="search"], .loopui-form .stacked input[type="text"], .loopui-form input[type="date"], .loopui-form .stacked input[type="tel"], .loopui-form .stacked input[type="url"], .loopui-form .stacked input[type="password"], .loopui-form .stacked select, .loopui-form .stacked textarea {
+	width:100% !important;
+	height:44px;
+	padding:6px 0px 0px 20px;
+	border:1px solid #BBB;
+	}	
+
+.loopui-form .stacked input:focus {
+	border:1px solid #00a7ff;
+	}
+		
